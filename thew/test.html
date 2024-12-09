@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll to Topic Example</title>
+    <style>
+        /* Style for navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style for sections */
+        section {
+            height: 100vh;
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* Extra for smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#topic1">Topic 1</a></li>
+            <li><a href="#topic2">Topic 2</a></li>
+            <li><a href="#topic3">Topic 3</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content Sections -->
+    <section id="topic1">
+        <h1>Topic 1</h1>
+        <p>Content for topic 1...</p>
+    </section>
+
+    <section id="topic2">
+        <h1>Topic 2</h1>
+        <p>Content for topic 2...</p>
+    </section>
+
+    <section id="topic3">
+        <h1>Topic 3</h1>
+        <p>Content for topic 3...</p>
+    </section>
+
+</body>
+</html>

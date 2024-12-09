@@ -1,0 +1,115 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Thai", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(218, 255, 196);
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 25px;
+    gap: 50px;
+    margin-right: 50px;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+.container {
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+nav {
+
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+nav ul {
+    display: flex;
+    grid-gap: 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    transition: background-color 0.3s, color 0.3s; /* เพิ่มเอฟเฟกต์การเปลี่ยนแปลง */
+}
+
+.nav-link:hover {
+    background-color: rgb(245, 141, 22); /* สีพื้นหลังเมื่อเลื่อนเมาส์ */
+    color: rgb(255, 255, 255); /* สีตัวอักษรเมื่อเลื่อนเมาส์ */
+    border-radius: 5px; /* เพิ่มขอบโค้งเล็กน้อย (ถ้าต้องการ) */
+}
+
+.lnwza007 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: rgb(255, 187, 109);
+    width: 100%;
+    
+
+}
+
+.font-header h1{
+    color: rgb(255, 53, 2);
+}
+
+.line {
+    border-top: 1px solid rgb(96, 167, 94);
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.aboutme {
+    margin-left: 100px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+.myskill {
+    margin-left: 100px;
+    font-size: 25px;
+    margin-bottom: 100px;
+
+}
+
+.contact {
+    margin-left: 100px;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.lnw {
+    display: flex;
+    gap: 50px;
+}
+.eiei {
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+.con1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

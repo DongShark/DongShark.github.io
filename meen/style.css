@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inconsolata', sans-serif; /* ฟอนต์หลัก */
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    position: sticky;
+    background-color: #add8e6;
+    width: 10%;
+    padding: 10px;
+}
+
+.menu-btn {
+    background-color: #fdf6d3;
+    color: #5f9ea0;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 80%;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-btn:hover {
+    background-color: #5f9ea0;
+    color: #ffffff;
+}
+
+.content {
+    background-color: #fdf6d3;
+    width: 90%;
+    display: none;
+    padding: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+@keyframes typeWriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.no1 {
+    font-size: 5rem;
+    font-family: 'Sour Gummy', cursive;
+    color: #5f9ea0;
+    margin: 0;
+    font-weight: 700;
+    overflow: hidden; 
+    white-space: nowrap;
+    display: inline-block;
+    width: 0;
+    animation: typeWriter 3s steps(30) 1s forwards; 
+}
+
+.content.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+}
+.page1 {
+    background-color: #fdf6d3;
+    width: 90%;
+    display: none;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.page1.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cc {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    height: 100vh;
+}
+.am {
+    font-size: 2rem;
+    font-family: 'Sour Gummy', cursive;
+    color: #5f9ea0;
+    margin: 0;
+    font-weight: 300px;
+    overflow: hidden; /* Hide overflow while typing */
+    white-space: nowrap;
+    display: inline-block;
+    width: 0;
+    animation: typeWriter 3s steps(30) 1s forwards;
+}
+
+.cm {
+    font-size: 4rem;
+    font-family: 'Sour Gummy', cursive;
+    color: #5f9ea0;
+    height: fit-content;
+    /* margin: 0; */
+    /* top: 50px; */
+    font-weight: 700px;
+    overflow: hidden; 
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    animation: typeWriter 3s steps(30) 1s forwards; /* Adjust the duration and steps */
+}
+.sc {
+    font-size: 1rem;
+    font-family: 'Sour Gummy', cursive;
+    color: #5f9ea0;
+    margin: 0;
+    border-style: solid;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+
+}
+
+.scoll {
+    font-family: 'Sour Gummy', cursive;
+    color: #5f9ea0;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    overflow-x: scroll;
+    display: grid;
+    height: fit-content; 
+    grid-template-columns: auto auto auto;
+}
+
+.scolls {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.school {
+    width: 300px;
+    height: fit-content; 
+}
+
+.profile {
+    position: absolute; 
+    top: 20px; 
+    left: 30px; 
+    width: 400px;
+    border-radius: 10px;
+}
+
+.bio {
+    flex: 1;
+    max-width: 75%;
+    margin-left: 450px; 
+    padding: 20px; 
+    
+}
+
+.profile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px;
+    /* border: 10px solid #FFBD73;  */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+}
+
+
+.trophy {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: gold;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+
+.social-links {
+    display: flex; 
+    justify-content: center;
+    gap: 50px; 
+    margin-top: -60px;
+    /* margin-top: 100px; */
+    
+}
+
+.social-links i {
+    font-size: 2rem;
+    color: #5f9ea0; 
+    transition: color 0.3s ease;
+}
+
+.duck {
+    margin-top: 50px;
+    position: absolute;
+    bottom: 60px;
+}
+
+
+
