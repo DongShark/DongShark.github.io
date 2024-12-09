@@ -98,6 +98,7 @@ body {
     font-size: 2rem;
     font-family: 'Sour Gummy', cursive;
     color: #5f9ea0;
+    border-radius: 50px;
     margin: 0;
     font-weight: 300px;
     overflow: hidden; /* Hide overflow while typing */
@@ -137,6 +138,7 @@ body {
 .scoll {
     font-family: 'Sour Gummy', cursive;
     color: #5f9ea0;
+    background-color: FDF7F4;
     width: 300px;
     height: auto;
     margin-right: 10px;
@@ -144,6 +146,8 @@ body {
     display: grid;
     height: fit-content; 
     grid-template-columns: auto auto auto;
+    border: #FADA7A solid 10px;
+    border-radius: 25px;
 }
 
 .scolls {
@@ -157,6 +161,7 @@ body {
 .school {
     width: 300px;
     height: fit-content; 
+    margin-top: 20px;
 }
 
 .profile {
@@ -180,7 +185,7 @@ body {
     height: auto;
     border-radius: 20px;
     margin: 20px;
-    /* border: 10px solid #FFBD73;  */
+    border: 10px solid #FADA7A; 
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
 }
 
